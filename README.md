@@ -1,71 +1,27 @@
-# developer-sites-in-vscode README
+**developer-sites-in-vscode**
 
-This is the README for your extension "developer-sites-in-vscode". After writing up a brief description, we recommend including the following sections.
+# Basic Intro
+hard to focus on coding because you forget some apis and need open browser to search for document about those？
 
-## Features
+Why not all in VSCode？
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+That's also my thoughts, so I try to make this VSCode extension plugin.
 
-For example if there is an image subfolder under your extension project workspace:
+# How to use
+press down `control`(`cmd` for Mac) `shift` and `p` at the same time, and then type in:
 
-\!\[feature X\]\(images/feature-x.png\)
+> open site:author-blog
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+if any thing ok, you will open a page in VSCode.
 
-## Requirements
+and sites like vue document and react document are supported too.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+more sites will be supported in future version.
 
-## Extension Settings
+# About
+I'm the author of this plugin, a student. It's my first time to make a plugin for VSCode that' s very interesting, as the same time, it means lots of bug is latent, but don't be worry, I'll solve those problems if you would like to tell me:
+**https://github.com/CoderSerio/developer-sites-in-vscode/issues**
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+I have many coding plans, and I need collaborators.
+code for fun, and my email:
+**2779066456@qq.com**
