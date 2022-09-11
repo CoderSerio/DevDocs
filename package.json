@@ -2,13 +2,33 @@
   "name": "developer-sites-in-vscode",
   "displayName": "Developer Sites in VSCode",
   "description": "Open developer sites in VSCode",
-  "version": "0.0.1",
+  "version": "1.0.1",
+  "publisher": "Shen Yuyou",
   "engines": {
     "vscode": "^1.54.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "vscode",
+    "web",
+    "sites",
+    "inside",
+    "内置",
+    "网页",
+    "Carbon",
+    "Serio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderSerio/developer-sites-in-vscode.git"
+  },
+  "homepage": "https://github.com/CoderSerio/developer-sites-in-vscode/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/CoderSerio/developer-sites-in-vscode/issues",
+    "email": "2779066456@qq.com"
+  },
   "activationEvents": [
     "onCommand:developer-sites-in-vscode.openAuthorBlog",
     "onCommand:developer-sites-in-vscode.openVueDoc",
@@ -19,7 +39,7 @@
     "onCommand:developer-sites-in-vscode.openECMAScript6Doc",
     "onCommand:developer-sites-in-vscode.openTOCODE",
     "onCommand:developer-sites-in-vscode.openNetworkDoc",
-    "onCommand:developer-sites-in-vscode.openOSDoc"   
+    "onCommand:developer-sites-in-vscode.openOSDoc"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -45,7 +65,7 @@
     "viewsWelcome": [
       {
         "view": "developer-sites-in-vscode",
-        "contents": "Thanks for using [developer-sites-in-vscode], more features are developing...\n[LEARN MORE](https://github.com/CoderSerio/developer-sites-in-vscode/)"  
+        "contents": "Thanks for using [developer-sites-in-vscode], more features are developing...\n[LEARN MORE](https://github.com/CoderSerio/developer-sites-in-vscode/)"
       }
     ],
     "commands": [
@@ -112,5 +132,6 @@
     "mocha": "^10.0.0",
     "typescript": "^4.7.4",
     "@vscode/test-electron": "^2.1.5"
-  }
+  },
+  "dependencies": {}
 }
