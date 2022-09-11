@@ -10,7 +10,16 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:developer-sites-in-vscode.openSite"
+    "onCommand:developer-sites-in-vscode.openAuthorBlog",
+    "onCommand:developer-sites-in-vscode.openVueDoc",
+    "onCommand:developer-sites-in-vscode.openQianKunDoc",
+    "onCommand:developer-sites-in-vscode.openReactDoc",
+    "onCommand:developer-sites-in-vscode.openNodeDoc",
+    "onCommand:developer-sites-in-vscode.openTailwindcssDoc",
+    "onCommand:developer-sites-in-vscode.openECMAScript6Doc",
+    "onCommand:developer-sites-in-vscode.openTOCODE",
+    "onCommand:developer-sites-in-vscode.openNetworkDoc",
+    "onCommand:developer-sites-in-vscode.openOSDoc"    
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -26,15 +35,52 @@
     "views": {
       "developer-sites-in-vscode": [
         {
-          "id": "package-dependencies",
-          "name": "Dependencies"
+          "id": "developer-sites-in-vscode",
+          "name": "web"
         }
       ]
     },
     "commands": [
       {
-        "command": "developer-sites-in-vscode.openSite",
-        "title": "open site demo"
+        "command": "developer-sites-in-vscode.openAuthorBlog",
+        "title": "open site:author-blog",
+        "shortTitle": "打开作者的个人博客"
+      },
+      {
+        "command": "developer-sites-in-vscode.openVueDoc",
+        "title": "open site:vue-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openReactDoc",
+        "title": "open site:react-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openQianKunDoc",
+        "title": "open site:qiankun-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openNodeDoc",
+        "title": "open site:node-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openTailwindcssDoc",
+        "title": "open site:tailwindcss-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openECMAScript6Doc",
+        "title": "open site:es6-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openTOCODE",
+        "title": "open site:tocode"
+      },
+      {
+        "command": "developer-sites-in-vscode.openNetworkDoc",
+        "title": "open site:network-doc"
+      },
+      {
+        "command": "developer-sites-in-vscode.openOSDoc",
+        "title": "open site:os-doc"
       }
     ]
   },
