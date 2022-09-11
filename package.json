@@ -1,7 +1,7 @@
 {
   "name": "developer-sites-in-vscode",
   "displayName": "Developer Sites in VSCode",
-  "description": "Open your sites in VSCode",
+  "description": "Open developer sites in VSCode",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.54.0"
@@ -19,27 +19,35 @@
     "onCommand:developer-sites-in-vscode.openECMAScript6Doc",
     "onCommand:developer-sites-in-vscode.openTOCODE",
     "onCommand:developer-sites-in-vscode.openNetworkDoc",
-    "onCommand:developer-sites-in-vscode.openOSDoc"    
+    "onCommand:developer-sites-in-vscode.openOSDoc"   
   ],
   "main": "./out/extension.js",
   "contributes": {
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "developer-sites-in-vscode",
+          "id": "inside-web-container",
           "title": "VSCode内置网页",
           "icon": "media/icon.svg"
         }
       ]
     },
     "views": {
-      "developer-sites-in-vscode": [
+      "inside-web-container": [
         {
           "id": "developer-sites-in-vscode",
-          "name": "web"
+          "name": "developer-sites-in-vscode",
+          "icon": "media/icon.svg",
+          "contextualTitle": "VSCode内置网页"
         }
       ]
     },
+    "viewsWelcome": [
+      {
+        "view": "developer-sites-in-vscode",
+        "contents": "Thanks for using [developer-sites-in-vscode], more features are developing...\n[LEARN MORE](https://github.com/CoderSerio/developer-sites-in-vscode/)"  
+      }
+    ],
     "commands": [
       {
         "command": "developer-sites-in-vscode.openAuthorBlog",
