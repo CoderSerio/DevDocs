@@ -1,8 +1,8 @@
 {
-  "name": "developer-sites-in-vscode",
+  "name": "dev-docs",
   "displayName": "Developer Sites in VSCode",
-  "description": "Open developer sites in VSCode",
-  "version": "1.0.1",
+  "description": "Open documents sites in VSCode",
+  "version": "1.1.0",
   "publisher": "Shen Yuyou",
   "engines": {
     "vscode": "^1.54.0"
@@ -11,14 +11,13 @@
     "Other"
   ],
   "keywords": [
-    "vscode",
-    "web",
-    "sites",
+    "doc",
+    "document",
+    "developer",
     "inside",
     "内置",
     "网页",
-    "Carbon",
-    "Serio"
+    "文档"
   ],
   "license": "SEE LICENSE IN LICENSE.txt",
   "repository": {
@@ -72,44 +71,72 @@
     "commands": [
       {
         "command": "developer-sites-in-vscode.openAuthorBlog",
-        "title": "open site:author-blog",
+        "title": "open site: Author",
         "shortTitle": "打开作者的个人博客"
       },
       {
         "command": "developer-sites-in-vscode.openVueDoc",
-        "title": "open site:vue-doc"
+        "title": "open site: Vue"
       },
       {
         "command": "developer-sites-in-vscode.openReactDoc",
-        "title": "open site:react-doc"
+        "title": "open site: React"
       },
       {
         "command": "developer-sites-in-vscode.openQianKunDoc",
-        "title": "open site:qiankun-doc"
+        "title": "open site: QianKun"
       },
       {
         "command": "developer-sites-in-vscode.openNodeDoc",
-        "title": "open site:node-doc"
+        "title": "open site: Node"
       },
       {
         "command": "developer-sites-in-vscode.openTailwindcssDoc",
-        "title": "open site:tailwindcss-doc"
+        "title": "open site: Tailwindcss"
       },
       {
-        "command": "developer-sites-in-vscode.openECMAScript6Doc",
-        "title": "open site:es6-doc"
+        "command": "developer-sites-in-vscode.openNextDoc",
+        "title": "open site: Next"
       },
       {
-        "command": "developer-sites-in-vscode.openTOCODE",
-        "title": "open site:tocode"
+        "command": "developer-sites-in-vscode.openNuxtDoc",
+        "title": "open site: Nuxt"
       },
       {
-        "command": "developer-sites-in-vscode.openNetworkDoc",
-        "title": "open site:network-doc"
+        "command": "developer-sites-in-vscode.openVuexDoc",
+        "title": "open site: Vuex"
       },
       {
-        "command": "developer-sites-in-vscode.openOSDoc",
-        "title": "open site:os-doc"
+        "command": "developer-sites-in-vscode.openPiniaDoc",
+        "title": "open site: Pinia"
+      },
+      {
+        "command": "developer-sites-in-vscode.openWebpackDoc",
+        "title": "open site: Webpack"
+      },
+      {
+        "command": "developer-sites-in-vscode.openTypeScriptDoc",
+        "title": "open site: TypeScript"
+      },
+      {
+        "command": "developer-sites-in-vscode.openDenoDoc",
+        "title": "open site: Deno"
+      },
+      {
+        "command": "developer-sites-in-vscode.openMDNDoc",
+        "title": "open site: MDN"
+      },
+      {
+        "command": "developer-sites-in-vscode.openW3CDoc",
+        "title": "open site: W3C"
+      },
+      {
+        "command": "developer-sites-in-vscode.openStyledComponentsDoc",
+        "title": "open site: StyledComponents"
+      },
+      {
+        "command": "developer-sites-in-vscode.openSveletDoc",
+        "title": "open site: Svelet"
       }
     ]
   },
@@ -122,17 +149,16 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.54.0",
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.1.1",
-    "@types/node": "16.x",
+    "@types/node": "^16.18.11",
+    "@types/vscode": "^1.54.0",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
+    "@vscode/test-electron": "^2.1.5",
     "eslint": "^8.20.0",
     "glob": "^8.0.3",
     "mocha": "^10.0.0",
-    "typescript": "^4.7.4",
-    "@vscode/test-electron": "^2.1.5"
-  },
-  "dependencies": {}
+    "typescript": "^4.7.4"
+  }
 }

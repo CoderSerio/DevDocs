@@ -4,8 +4,7 @@ const path = require('path');
 const vscode = require('vscode');
 const exec = require('child_process').exec;
 
-
-export const util = {
+const util = {
     log: function (params: any) {
         console.log(params);
     },
@@ -15,4 +14,6 @@ export const util = {
     showError: function (params: any) {
         vscode.window.showError(params);
     }
-}
+};
+
+export default util;
