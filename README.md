@@ -13,7 +13,7 @@ The supported is shown in below:
 > Vue React QianKun Node <br> 
 > Tailwindcss Next Nuxt Vuex <br> 
 > Pinia Webpack TypeScript Deno <br>
-> MDN W3C StyledComponents Svelet 
+> W3C StyledComponents Svelet 
 
 
 More sites will be supported in future version.

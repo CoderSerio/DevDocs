@@ -19,6 +19,7 @@
     "网页",
     "文档"
   ],
+  "icon": "media/DevDocs.jpg",
   "license": "SEE LICENSE IN LICENSE.txt",
   "repository": {
     "type": "git",
@@ -34,12 +35,22 @@
     "onCommand:developer-sites-in-vscode.openVueDoc",
     "onCommand:developer-sites-in-vscode.openQianKunDoc",
     "onCommand:developer-sites-in-vscode.openReactDoc",
-    "onCommand:developer-sites-in-vscode.openNodeDoc",
     "onCommand:developer-sites-in-vscode.openTailwindcssDoc",
-    "onCommand:developer-sites-in-vscode.openECMAScript6Doc",
-    "onCommand:developer-sites-in-vscode.openTOCODE",
-    "onCommand:developer-sites-in-vscode.openNetworkDoc",
-    "onCommand:developer-sites-in-vscode.openOSDoc"
+    "onCommand:developer-sites-in-vscode.openXiaoLinCodingDoc",
+    "onCommand:developer-sites-in-vscode.openNodeDoc",
+    "onCommand:developer-sites-in-vscode.openNextDoc",
+    "onCommand:developer-sites-in-vscode.openNuxtDoc",
+    "onCommand:developer-sites-in-vscode.openVuexDoc",
+    "onCommand:developer-sites-in-vscode.openPiniaDoc",
+    "onCommand:developer-sites-in-vscode.openWebpackDoc",
+    "onCommand:developer-sites-in-vscode.openTypeScriptDoc",
+    "onCommand:developer-sites-in-vscode.openDenoDoc",
+    "onCommand:developer-sites-in-vscode.openW3CDoc",
+    "onCommand:developer-sites-in-vscode.openStyledComponentDoc",
+    "onCommand:developer-sites-in-vscode.openSveletDoc"
+
+
+    
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -121,10 +132,6 @@
       {
         "command": "developer-sites-in-vscode.openDenoDoc",
         "title": "open site: Deno"
-      },
-      {
-        "command": "developer-sites-in-vscode.openMDNDoc",
-        "title": "open site: MDN"
       },
       {
         "command": "developer-sites-in-vscode.openW3CDoc",
