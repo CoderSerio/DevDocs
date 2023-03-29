@@ -18,7 +18,7 @@ The supported is shown in below:
 
 More sites will be supported in future version.
 
-# Expand
+# Extension
 There is so much documentation out there that no one person can cover it all alone, so I hope everyone will come together to expand the content of this plugin. Welcome to fork:
 
 **https://github.com/CoderSerio/developer-sites-in-vscode/**
