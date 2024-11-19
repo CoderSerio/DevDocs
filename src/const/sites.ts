@@ -1,13 +1,18 @@
 import { ViewColumn } from "vscode";
 
-const vscode = require('vscode');
+const vscode = require("vscode");
 
 export interface Site {
   path: string;
   cmd: string;
   tag: string;
   title: string;
-  position: ViewColumn | { readonly viewColumn: ViewColumn; readonly preserveFocus?: boolean | undefined; };
+  position:
+    | ViewColumn
+    | {
+        readonly viewColumn: ViewColumn;
+        readonly preserveFocus?: boolean | undefined;
+      };
   options: {
     enableScripts: boolean;
     [key: string]: string | boolean | number;
@@ -25,8 +30,8 @@ const defaultOptions = {
 // 未来或许会优化成JSON格式，这样在package.json中配置命令的时候就会方便许多
 export const sites: Array<Site> = [
   {
-    title: "Serio's Blog",
-    path: "https://serio.gitee.io/",
+    title: "Carbon's Blog",
+    path: "https://coder-serio-github-io.vercel.app/",
     cmd: `${cmdPrefix}openAuthorBlog`,
     position: defaultPosition,
     tag: defaultTag,
@@ -82,7 +87,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Next",
-    path: 'https://nextjs.org/',
+    path: "https://nextjs.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openNextDoc`,
     tag: defaultTag,
@@ -90,7 +95,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Nuxt",
-    path: 'https://nuxtjs.org/',
+    path: "https://nuxtjs.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openNuxtDoc`,
     tag: defaultTag,
@@ -98,7 +103,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Vuex",
-    path: 'https://vuex.vuejs.org/',
+    path: "https://vuex.vuejs.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openVuexDoc`,
     tag: defaultTag,
@@ -106,7 +111,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Pinia",
-    path: 'https://pinia.vuejs.org/',
+    path: "https://pinia.vuejs.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openPiniaDoc`,
     tag: defaultTag,
@@ -114,7 +119,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Webpack",
-    path: 'https://webpack.js.org/',
+    path: "https://webpack.js.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openWebpackDoc`,
     tag: defaultTag,
@@ -122,7 +127,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "TypeScript",
-    path: 'https://www.typescriptlang.org/',
+    path: "https://www.typescriptlang.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openTypeScriptDoc`,
     tag: defaultTag,
@@ -130,7 +135,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Deno",
-    path: 'https://deno.land/',
+    path: "https://deno.land/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openDenoDoc`,
     tag: defaultTag,
@@ -138,7 +143,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "MDN",
-    path: 'https://developer.mozilla.org/',
+    path: "https://developer.mozilla.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openMDNDoc`,
     tag: defaultTag,
@@ -146,7 +151,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "W3C",
-    path: 'https://www.w3.org/',
+    path: "https://www.w3.org/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openW3CDoc`,
     tag: defaultTag,
@@ -154,7 +159,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Styled Components",
-    path: 'https://styled-components.com/',
+    path: "https://styled-components.com/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openStyledComponentsDoc`,
     tag: defaultTag,
@@ -162,7 +167,7 @@ export const sites: Array<Site> = [
   },
   {
     title: "Svelet",
-    path: 'https://svelte.dev/',
+    path: "https://svelte.dev/",
     position: defaultPosition,
     cmd: `${cmdPrefix}openSvelteDoc`,
     tag: defaultTag,

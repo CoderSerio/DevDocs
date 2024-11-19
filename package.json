@@ -2,7 +2,7 @@
   "name": "developer-sites-in-vscode",
   "displayName": "DevDocs",
   "description": "Open documents sites in VSCode",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "ShenYuyou",
   "engines": {
     "vscode": "^1.54.0"
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/CoderSerio/developer-sites-in-vscode/blob/main/README.md",
   "bugs": {
     "url": "https://github.com/CoderSerio/developer-sites-in-vscode/issues",
-    "email": "2779066456@qq.com"
+    "email": "carbon1024@foxmail.com"
   },
   "activationEvents": [
     "onCommand:developer-sites-in-vscode.openAuthorBlog",
@@ -48,9 +48,6 @@
     "onCommand:developer-sites-in-vscode.openW3CDoc",
     "onCommand:developer-sites-in-vscode.openStyledComponentDoc",
     "onCommand:developer-sites-in-vscode.openSveletDoc"
-
-
-    
   ],
   "main": "./out/extension.js",
   "contributes": {
